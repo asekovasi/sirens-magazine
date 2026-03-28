@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Siren Studio</title>
+  <meta name="description" content="Siren Studio — luxury minimal уход за кожей." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@500;700&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <header class="hero" id="top">
+    <nav class="nav container">
+      <a class="brand" href="#top">SIREN STUDIO</a>
+      <a class="nav-link" href="#products">Каталог</a>
+    </nav>
+
+    <div class="hero-content container reveal">
+      <p class="eyebrow">SIREN STUDIO</p>
+      <h1>Glow starts with you</h1>
+      <p class="hero-text">
+        Уход, который мягко подчеркивает твою естественную красоту.
+      </p>
+      <a class="btn" href="#products">Открыть каталог</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="section container" id="products">
+      <div class="section-head reveal">
+        <p class="eyebrow">Популярные продукты</p>
+        <h2>Our Bestsellers</h2>
+      </div>
+
+      <div class="grid products-grid">
+        <article class="card product-card reveal">
+          <div class="media media-serum"></div>
+          <h3>Siren Glow Serum</h3>
+          <p>Легкая сыворотка для сияния кожи.</p>
+          <button class="btn btn-soft" type="button">Купить</button>
+        </article>
+
+        <article class="card product-card reveal">
+          <div class="media media-cream"></div>
+          <h3>Cloud Veil Cream</h3>
+          <p>Невесомый крем для глубокого увлажнения.</p>
+          <button class="btn btn-soft" type="button">Купить</button>
+        </article>
+
+        <article class="card product-card reveal">
+          <div class="media media-cleanser"></div>
+          <h3>Silk Foam Cleanser</h3>
+          <p>Мягкое очищение без ощущения сухости.</p>
+          <button class="btn btn-soft" type="button">Купить</button>
+        </article>
+
+        <article class="card product-card reveal">
+          <div class="media media-mist"></div>
+          <h3>Rose Dew Mist</h3>
+          <p>Тонер-мист для свежести и glow-эффекта.</p>
+          <button class="btn btn-soft" type="button">Купить</button>
+        </article>
+      </div>
+    </section>
+
+    <section class="section section-tint">
+      <div class="container about-layout">
+        <div class="about-text reveal">
+          <p class="eyebrow">О бренде</p>
+          <h2>About Siren Studio</h2>
+          <p>
+            Мы создаем уход, который подчеркивает твою естественную красоту.
+            Минимализм. Чистота. Сияние.
+          </p>
+        </div>
+        <div class="about-image reveal" aria-hidden="true"></div>
+      </div>
+    </section>
+
+    <section class="section container" id="sets">
+      <div class="section-head reveal">
+        <p class="eyebrow">Наборы</p>
+        <h2>Glow Sets</h2>
+      </div>
+
+      <div class="grid sets-grid">
+        <article class="card reveal">
+          <h3>Glow Set</h3>
+          <p>Идеальный набор для увлажнения и сияния.</p>
+          <a class="text-link" href="#top">Смотреть</a>
+        </article>
+        <article class="card reveal">
+          <h3>Calm Set</h3>
+          <p>Бережный уход для чувствительной кожи.</p>
+          <a class="text-link" href="#top">Смотреть</a>
+        </article>
+        <article class="card reveal">
+          <h3>Night Repair Set</h3>
+          <p>Восстановление и питание во время сна.</p>
+          <a class="text-link" href="#top">Смотреть</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="section section-tint">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">Блог</p>
+          <h2>Skin Journal</h2>
+        </div>
+        <div class="grid blog-grid">
+          <article class="card reveal">
+            <h3>Как правильно умываться</h3>
+            <p>Пошаговый утренний и вечерний ритуал.</p>
+          </article>
+          <article class="card reveal">
+            <h3>5 ошибок в уходе</h3>
+            <p>Простые привычки, которые мешают сиянию.</p>
+          </article>
+          <article class="card reveal">
+            <h3>Как добиться glow skin</h3>
+            <p>Практичный план ухода на каждый день.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container">
+      <div class="subscribe reveal">
+        <p class="eyebrow">Подписка</p>
+        <h2>Join Siren Studio</h2>
+        <p>Получай советы и новинки</p>
+        <form class="subscribe-form">
+          <label class="sr-only" for="email">Email</label>
+          <input id="email" type="email" placeholder="your@email.com" required />
+          <button class="btn" type="submit">Подписаться</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <a href="#" target="_blank" rel="noreferrer">Instagram</a>
+      <a href="mailto:hello@sirenstudio.com">Контакты</a>
+      <a href="#">Политика</a>
+    </div>
+  </footer>
+
+  <script src="./script.js"></script>
+</body>
+</html>
